@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: none;
+}
+/* Estilização da barra de rolagem */
+
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da alça da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor da alça da barra de rolagem ao passar o mouse */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:  #1764ec; /* Cor do fundo da barra de rolagem */
+  }
+  
+  /* Quando estiver ativo (quando o mouse estiver pressionado na alça ou a barra de rolagem estiver rolando) */
+  ::-webkit-scrollbar-track:active {
+    background: #999; /* Cor de fundo da barra de rolagem quando ativa */
+  }
+  
+/*
+-- Tipografia e Cores
+*/
+#conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#conteudo-principal {
+    flex: 2; /* Ocupa a maior parte do espaço */
+    padding-right: 20px; /* Espaçamento à direita para separar do conteúdo secundário */
+}
+
+#conteudo-secundario {
+    flex: 1; /* Ocupa menos espaço */
+    padding: 20px; /* Espaçamento interno para melhorar a visualização */
+}
+
+#conteudo-secundario h3 {
+    color: #1764ec; /* Cor dos títulos */
+}
+
+#conteudo-secundario p {
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+#conteudo-secundario ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding-left: 0; /* Remover o recuo padrão da lista */
+}
+
+#conteudo-secundario ul li {
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens da lista */
+}
+
+#conteudo-secundario ul li:before {
+    content: "\2022"; /* Adicionar um marcador circular */
+    color: #1764ec; /* Cor do marcador */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Alinhar corretamente com o texto */
+}
+
+
+
+#rodape {
+    background-color: #1764ec;
+    color: white; /* Cor da fonte branca */
+    padding: 20px; /* Espaçamento interno para melhorar a visualização */
+    margin: 0; /* Remover a margem padrão */
+}
+
+#rodape p{
+    margin: 10px 20px;
+}
+/* Ajusta o espaçamento entre o conteúdo da página e a borda */
+#conteudo {
+    margin: 20px; /* Espaçamento entre o conteúdo e a borda da página */
+}
+
+/* Ajusta o espaçamento entre cada conteúdo de cada tópico */
+#conteudo-principal h1,
+#conteudo-principal h2,
+#conteudo-principal p,
+#conteudo-principal ul {
+    margin-bottom: 30px; /* Espaçamento inferior entre cada conteúdo */
+}
+
